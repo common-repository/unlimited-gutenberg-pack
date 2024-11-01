@@ -1,0 +1,217 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for Backend only.
+ */
+.wp-block-gutenbergpack-testimonial-block {
+  margin: 0 auto;
+  max-width: 740px; }
+
+.gutenbergpack_testimonial {
+  display: grid;
+  grid-template-columns: fit-content(20%) auto; }
+
+.gutenbergpack_testimonial_content {
+  padding: 5px 17px !important;
+  margin-top: 15px; }
+
+.gutenbergpack_testimonial_img {
+  padding: 0px 10px !important; }
+  .gutenbergpack_testimonial_img img {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 50%; }
+
+.gutenbergpack_testimonial_upload_button {
+  margin: 24px 0px 0px 0px; }
+  .gutenbergpack_testimonial_upload_button p {
+    font-size: 12px;
+    text-align: justify;
+    margin: 5px 0 0 3px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-gutenbergpack-button-block {
+  margin: 0 auto;
+  max-width: 100%; }
+
+.gutenbergpack_button_url_input {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-top: 5px; }
+
+.gutenbergpack_button_input_box {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.flex-container {
+  display: -ms-flexbox;
+  display: flex; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-gutenbergpack-tabbed-content-holder .blocks-rich-text__tinymce.mce-content-body {
+  font-size: 14px; }
+
+.wp-block-gutenbergpack-tabbed-content-tabs-title {
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-gutenbergpack-tabbed-content-tab-title-wrap {
+  border: 1px solid lightgrey;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 15px;
+  border-bottom: 0;
+  margin-right: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative; }
+  .wp-block-gutenbergpack-tabbed-content-tab-title-wrap:last-child {
+    cursor: pointer; }
+  .wp-block-gutenbergpack-tabbed-content-tab-title-wrap.active {
+    color: white; }
+  .wp-block-gutenbergpack-tabbed-content-tab-title-wrap .remove-tab-icon {
+    width: 15px;
+    height: 15px;
+    background: #444444;
+    color: white;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-left: 5px;
+    line-height: 15px; }
+  .wp-block-gutenbergpack-tabbed-content-tab-title-wrap .drag-handle {
+    font-size: 16px;
+    margin-right: 3px;
+    color: black; }
+  .wp-block-gutenbergpack-tabbed-content-tab-title-wrap .tab-actions {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transition: all -.5s ease-in-out;
+    -o-transition: all -.5s ease-in-out;
+    transition: all -.5s ease-in-out;
+    display: none; }
+  .wp-block-gutenbergpack-tabbed-content-tab-title-wrap:hover .tab-actions {
+    display: -ms-flexbox;
+    display: flex; }
+
+.wp-block-gutenbergpack-tabbed-content-tabs-content {
+  border: 1px solid lightgrey;
+  padding: 20px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-gutenbergpack-call-to-action {
+  margin: 0 auto;
+  max-width: 740px; }
+
+.gutenbergpack_call_to_action_headline p {
+  text-align: center;
+  padding: 20px 20px 0 20px; }
+
+.gutenbergpack_call_to_action_content {
+  width: 100%;
+  padding: 0 0 40px 0; }
+
+.gutenbergpack_call_to_action_url_input {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-top: -20px; }
+
+.gutenbergpack_cta_url_input_box {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-gutenbergpack-feature-box {
+  margin: 20px 0 20px 0;
+  max-width: 740px; }
+
+.gutenbergpack_feature_upload_button > button {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+.gutenbergpack_feature_upload_button > p {
+  font-size: 12px;
+  text-align: justify;
+  margin: 5px 0 0 3px; }

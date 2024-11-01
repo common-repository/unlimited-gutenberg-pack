@@ -1,0 +1,316 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-gutenbergpack-testimonial-block {
+  margin: 30px auto;
+  max-width: 740px; }
+
+.gutenbergpack_testimonial {
+  max-width: 100%;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: fit-content(25%) auto;
+  grid-template-rows: auto auto; }
+
+.gutenbergpack_testimonial_img {
+  padding: 10px 10px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: span 2; }
+  .gutenbergpack_testimonial_img img {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 50%; }
+
+.gutenbergpack_testimonial_content {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  padding: 11px 20px; }
+  .gutenbergpack_testimonial_content p {
+    font-style: italic;
+    text-align: justify; }
+
+.gutenbergpack_testimonial_sign {
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  grid-column-start: 2;
+  grid-row-start: 2; }
+  .gutenbergpack_testimonial_sign p {
+    margin-bottom: 2px !important; }
+  .gutenbergpack_testimonial_sign i {
+    font-size: 13px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-gutenbergpack-button-block {
+  margin: 30px auto;
+  max-width: 100%; }
+
+.gutenbergpack-button-container {
+  display: -ms-flexbox;
+  display: flex; }
+
+.gutenbergpack-button-block-btn {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center; }
+
+.align-button-center {
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.align-button-left {
+  -ms-flex-pack: start;
+      justify-content: flex-start; }
+
+.align-button-right {
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+
+.gutenbergpack-button-small {
+  width: 180px;
+  padding: 10px;
+  font-size: 13px !important; }
+
+.gutenbergpack-button-medium {
+  width: 275px;
+  padding: 15px;
+  font-size: 17px !important; }
+
+.gutenbergpack-button-large {
+  width: 417px;
+  padding: 20px;
+  font-size: 22px !important; }
+
+.gutenbergpack-button-larger {
+  width: 512px;
+  padding: 20px;
+  font-size: 25px !important; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-gutenbergpack-tabbed-content {
+  margin: 30px 0; }
+
+.wp-block-gutenbergpack-tabbed-content-holder .blocks-rich-text__tinymce.mce-content-body {
+  font-size: 14px; }
+
+.wp-block-gutenbergpack-tabbed-content-tabs-title {
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-gutenbergpack-tabbed-content-tab-title-wrap {
+  border: 1px solid lightgrey;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 10px 15px;
+  border-bottom: 0;
+  margin-right: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+  cursor: pointer; }
+  .wp-block-gutenbergpack-tabbed-content-tab-title-wrap.active {
+    color: white; }
+
+.wp-block-gutenbergpack-tabbed-content-tabs-content {
+  border: 1px solid lightgrey;
+  padding: 25px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-gutenbergpack-block-call-to-action {
+  margin: 0 auto;
+  max-width: 740px; }
+
+.gutenbergpack_call_to_action {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 0 60px;
+  margin: 30px 0 60px 0; }
+
+.gutenbergpack_call_to_action_headline {
+  width: 100%;
+  padding: 20px 20px 10px 20px; }
+
+.gutenbergpack_call_to_action_headline p {
+  text-align: center;
+  margin: 0;
+  padding: 20px 20px 0 20px; }
+
+.gutenbergpack_call_to_action_content {
+  width: 100%;
+  padding: 0 0 15px 0; }
+
+.gutenbergpack_call_to_action_content p {
+  text-align: justify; }
+
+.gutenbergpack_call_to_action_button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.gutenbergpack_cta_button {
+  margin-bottom: -31px !important;
+  padding: 20px !important;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.gutenbergpack_cta_button_text {
+  margin: 0 !important;
+  text-align: center; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.gutenbergpack-hide {
+  display: none !important; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-gutenbergpack-feature-box {
+  margin: 20px 0 20px 0;
+  max-width: 740px; }
+
+.gutenbergpack_feature_box {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0; }
+  .gutenbergpack_feature_box > div {
+    text-align: justify;
+    margin: 0 auto; }
+
+.gutenbergpack_feature_box.column_1 .gutenbergpack_feature_2, .gutenbergpack_feature_box.column_1 .gutenbergpack_feature_3 {
+  display: none; }
+
+.gutenbergpack_feature_box.column_1 > div {
+  width: 100%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  padding: 1rem; }
+
+.gutenbergpack_feature_box.column_2 .gutenbergpack_feature_3 {
+  display: none; }
+
+.gutenbergpack_feature_box.column_2 > div {
+  width: 49%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  padding: 1rem; }
+
+.gutenbergpack_feature_box.column_3 > div {
+  width: 33.2%;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  padding: 1rem; }
+
+.gutenbergpack_feature_box.column_3 > div:first-child {
+  margin-left: 0; }
+
+.gutenbergpack_feature_box.column_3 > div:last-child {
+  margin-right: 0; }
+
+.gutenbergpack_feature_box_feature {
+  border-radius: 100px;
+  overflow: hidden;
+  border: medium none;
+  max-width: 80px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: -60px !important;
+  margin-bottom: 25px; }
+
+.gutenbergpack_feature_one_feature, .gutenbergpack_feature_two_feature, .gutenbergpack_feature_three_feature {
+  font-size: 40px !important;
+  text-align: center;
+  line-height: 80px !important;
+  margin: 0 auto !important; }
+
+.gutenbergpack_feature_one_title, .gutenbergpack_feature_two_title, .gutenbergpack_feature_three_title {
+  font-size: 30px !important;
+  text-align: center;
+  margin: 20px 0 !important;
+  padding: 0; }
+
+.gutenbergpack_feature_1 > img, .gutenbergpack_feature_2 > img, .gutenbergpack_feature_3 > img {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%; }
+
+@media screen and (max-width: 800px) {
+  .gutenbergpack_feature_box.column_3 {
+    display: block; }
+    .gutenbergpack_feature_box.column_3 > div {
+      width: 90% !important;
+      margin: 0 !important; } }
+
+@media screen and (max-width: 600px) {
+  .gutenbergpack_feature_box.column_2 {
+    display: block; }
+    .gutenbergpack_feature_box.column_2 > div {
+      width: 90% !important;
+      margin: 0 !important; } }

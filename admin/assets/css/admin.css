@@ -1,0 +1,248 @@
+.notice:not(.gutenberg-pack-notice) {
+    display: none;
+}
+
+.gutenberg-pack-flex {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.form-field p.gutenberg-pack-p {
+    margin: 1em 0;
+}
+
+.gutenberg-pack-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#gutenberg-pack-menu-page .gutenberg-pack-notice {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.gutenberg-pack-menu-page-wrapper a {
+    text-decoration: none;
+}
+
+.gutenberg-pack-bulk-actions-wrap {
+    flex: auto;
+    text-align: right;
+}
+
+.gutenberg-pack-general-list .inside {
+    padding: 0;
+    margin: 0;
+}
+
+.gutenberg-pack-list-section .gutenberg-pack-widget-list li {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding: 10px 12px;
+
+    margin-bottom: 0;
+}
+
+.gutenberg-pack-list-section .gutenberg-pack-widget-list li:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+.gutenberg-pack-list-section .gutenberg-pack-widget-list .activate {
+    border-left: 3px solid #008ec2;
+    padding-left: 12px;
+}
+
+.gutenberg-pack-widget-list a {
+    text-decoration: none;
+}
+
+.gutenberg-pack-widget-link-wrapper {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    flex: auto;
+}
+
+.gutenberg-pack-widget-list li a:before {
+    display: inline-block;
+    margin-right: 2px;
+    font: normal 20px/1 'dashicons';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+}
+
+.gutenberg-pack-widget-link-wrapper a:nth-child(even) {
+    margin: 0 10px;
+}
+
+.gutenberg-pack-container .postbox .hndle {
+    background: #FF8000;
+}
+
+.gutenberg-pack-container .postbox .hndle span{
+    color:#fff;
+}
+.gutenberg-pack-container .postbox ul {
+    margin: 0;
+}
+
+.gutenberg-pack-widget-list a {
+    line-height: 1.6;
+}
+
+.gutenberg-pack-widget-list a:focus {
+    box-shadow: none;
+}
+
+/* Update icon. */
+.gutenberg-pack-widget-link-wrapper a.updating-message:before {
+    color: #f56e28;
+    content: "\f463";
+}
+
+/* Spins the update icon. */
+.gutenberg-pack-widget-link-wrapper a.updating-message:before {
+    -webkit-animation: rotation 2s infinite linear;
+    animation: rotation 2s infinite linear;
+}
+
+.settings_page_gutenberg_pack #wpcontent {
+    padding: 0;
+}
+
+/* Header */
+.gutenberg-pack-menu-page-header.general .gutenberg-pack-container,
+.gutenberg-pack-container.gutenberg-pack-general {
+    max-width: 930px;
+}
+
+.gutenberg-pack-title {
+    flex: auto;
+    align-content: flex-start;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.gutenberg-pack-title h4 {
+    margin: 0;
+    color:#FF8000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gutenberg-pack-title a,
+.gutenberg-pack-title span {
+    display: block;
+    outline: none;
+    box-shadow: none;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: 500;
+}
+
+.gutenberg-pack-header-icon {
+    width: 200px;
+    vertical-align: bottom;
+}
+
+.gutenberg-pack-top-links {
+    flex: auto;
+    text-align: right;
+    font-weight: normal;
+    color:#FF8000;
+}
+
+.gutenberg-pack-menu-page-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 0 #efefef, 0 2px 2px #ececec;
+}
+
+/* White Label link*/
+.gutenberg-pack-widget-list .gutenberg-pack-white-label {
+    border-left: 3px solid #008ec2;
+    padding-left: 12px;
+}
+
+/* Integration */
+.gutenberg-pack-integration-wrapper #poststuff {
+    width: 640px;
+    margin: 0 auto;
+    min-width: 640px;
+}
+
+.gutenberg-pack-integration-form-wrap .form-field select {
+    border-style: solid;
+    border-width: 1px;
+    width: 95%;
+}
+
+/* Spinner */
+.gutenberg-pack-button-spinner:before {
+    font: normal 20px/.5 dashicons;
+    speak: none;
+    display: inline-block;
+    padding: 0;
+    top: 8px;
+    left: -4px;
+    position: relative;
+    vertical-align: top;
+    content: "\f463";
+}
+
+.gutenberg-pack-button-spinner.loading:before {
+    -webkit-animation: rotation 1s infinite linear;
+    animation: rotation 1s infinite linear;
+}

@@ -1,0 +1,222 @@
+# Copyright (C) 2018 Gutenbergpack
+# This file is distributed under the same license as the Gutenberg Pack – Unlimited Gutenberg Blocks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gutenberg Pack – Unlimited Gutenberg Blocks 1.0.0\n"
+"Report-Msgid-Bugs-To: contact@gutenbergpack.com\n"
+"POT-Creation-Date: 2018-12-28 09:41:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <contact@gutenbergpack.com>\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: admin/gutenberg-pack-admin.php:25
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-admin.php:25
+#: svn-production/trunk/admin/gutenberg-pack-admin.php:25
+msgid "Extend your gutenberg editor"
+msgstr ""
+
+#: admin/gutenberg-pack-admin.php:35
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-admin.php:35
+#: svn-production/trunk/admin/gutenberg-pack-admin.php:35
+msgid "Settings saved successfully."
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:23
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:23
+#: svn-production/trunk/admin/gutenberg-pack-general.php:23
+msgid "General"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:26
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:26
+#: svn-production/trunk/admin/gutenberg-pack-general.php:26
+msgid "Blocks"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:28
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:28
+#: svn-production/trunk/admin/gutenberg-pack-general.php:28
+msgid "Activate All"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:29
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:29
+#: svn-production/trunk/admin/gutenberg-pack-general.php:29
+msgid "Deactivate All"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:48
+#: includes/class-gutenberg-pack-admin.php:137
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:48
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-admin.php:137
+#: svn-production/trunk/admin/gutenberg-pack-general.php:48
+#: svn-production/trunk/includes/class-gutenberg-pack-admin.php:137
+msgid "Activate"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:55
+#: includes/class-gutenberg-pack-admin.php:138
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:55
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-admin.php:138
+#: svn-production/trunk/admin/gutenberg-pack-general.php:55
+#: svn-production/trunk/includes/class-gutenberg-pack-admin.php:138
+msgid "Deactivate"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:91
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:91
+#: svn-production/trunk/admin/gutenberg-pack-general.php:91
+msgid "Rate our work"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:98
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:98
+#: svn-production/trunk/admin/gutenberg-pack-general.php:98
+#. translators: %1$s: gutenberg pack name.
+msgid "Love this plugin? Please do not forget to rate us!"
+msgstr ""
+
+#: admin/gutenberg-pack-general.php:105
+#: svn-production/tags/1.0.0/admin/gutenberg-pack-general.php:105
+#: svn-production/trunk/admin/gutenberg-pack-general.php:105
+msgid "Rate Us »"
+msgstr ""
+
+#: includes/class-gutenberg-pack-admin.php:139
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-admin.php:139
+#: svn-production/trunk/includes/class-gutenberg-pack-admin.php:139
+msgid "Enable Beta Updates"
+msgstr ""
+
+#: includes/class-gutenberg-pack-admin.php:140
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-admin.php:140
+#: svn-production/trunk/includes/class-gutenberg-pack-admin.php:140
+msgid "Disable Beta Updates"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:39
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:39
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:39
+msgid "Testimonial"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:40
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:40
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:40
+msgid "This block help you to show some amazing feedback from your clients."
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:49
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:49
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:49
+msgid "Button"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:50
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:50
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:50
+msgid "This block help you to show any button with link."
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:61
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:61
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:61
+msgid "Tabbed Content"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:62
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:62
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:62
+msgid "This block help you to organize your content with Tab."
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:74
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:74
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:74
+msgid "Call to Action"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:75
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-config.php:75
+#: svn-production/trunk/includes/class-gutenberg-pack-config.php:75
+msgid "This block help you to show call to action section on your website."
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:93
+msgid "Featured"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:94
+msgid "This block help you to show featured section on your website."
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:98
+msgid "Title One"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:99
+msgid "Title Two"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:100
+msgid "Title Three"
+msgstr ""
+
+#: includes/class-gutenberg-pack-config.php:101
+#: includes/class-gutenberg-pack-config.php:102
+#: includes/class-gutenberg-pack-config.php:103
+msgid "Gutenberg is really awesome! Gutenberg Pack makes it more awesome!"
+msgstr ""
+
+#: includes/class-gutenberg-pack-init.php:70
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack-init.php:70
+#: svn-production/trunk/includes/class-gutenberg-pack-init.php:70
+msgid "Gutenberg Pack"
+msgstr ""
+
+#: includes/class-gutenberg-pack.php:171
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack.php:171
+#: svn-production/trunk/includes/class-gutenberg-pack.php:171
+#. translators: %s: html tags
+msgid ""
+"The %1$sGutenberg Pack for Gutenberg%2$s plugin requires %1$sGutenberg%2$s "
+"plugin installed & activated."
+msgstr ""
+
+#: includes/class-gutenberg-pack.php:181
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack.php:181
+#: svn-production/trunk/includes/class-gutenberg-pack.php:181
+msgid "Activate Gutenberg"
+msgstr ""
+
+#: includes/class-gutenberg-pack.php:189
+#: svn-production/tags/1.0.0/includes/class-gutenberg-pack.php:189
+#: svn-production/trunk/includes/class-gutenberg-pack.php:189
+msgid "Install Gutenberg"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gutenberg Pack – Unlimited Gutenberg Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.gutenbergpack.com/details"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Gutenberg Pack is a addon for gutenberg editor. It extends gutenberg to "
+"next level."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Gutenbergpack"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.gutenbergpack.com"
+msgstr ""
